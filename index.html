@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a COMPUTER´S PARTS</h1>
+        <h2>El sitio donde podes encontrar los componentes que andas necesitando</h2>
+      </header>
+    <main id="items" class="col-sm-8 row">
+
+    </main>
+    <!-- Carrito -->
+    <aside class="col-sm-4 cart card">
+        <h2>Carrito</h2>
+        <!-- Elementos del carrito -->
+        <ul id="carrito" class="list-group"></ul>
+        <hr>
+        <!-- Precio total -->
+        <p class="text-right">Total: $<span id="total"></span></p>
+        <button id="boton-comprar" class="btn btn-outline-success">Comprar</button>
+        <button id="boton-vaciar" class="btn btn-outline-danger">Vaciar</button>
+    </aside>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>

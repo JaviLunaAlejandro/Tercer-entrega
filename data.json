@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "nombre": "mother AMD",
+        "precio": 15000,
+        "stock": 10,
+        "img":"imagenes/mother-amd.jpeg"
+    },
+    {
+        "id": 2,
+        "nombre": "mother INTEL",
+        "precio": 18000,
+        "stock": 15,
+        "img":"imagenes/mother-intel.jpeg"
+    },
+    {
+        "id": 3,
+        "nombre": "procesador AMD",
+        "precio": 7500,
+        "stock": 9,
+        "img":"imagenes/ryzen.jpeg"
+    },
+    {
+        "id": 4,
+        "nombre": "procesador INTEL",
+        "precio": 8600,
+        "stock": 20,
+        "img":"imagenes/intel.jpeg"
+    },
+    {
+        "id": 5,
+        "nombre": "RAM 4gb",
+        "precio": 2000,
+        "stock": 20,
+        "img":"imagenes/ram.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "RAM 8gb",
+        "precio": 3000,
+        "stock": 20,
+        "img":"imagenes/ram.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "RAM 16gb",
+        "precio": 5000,
+        "stock": 10,
+        "img":"imagenes/ram.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "grafica AMD",
+        "precio": 30000,
+        "stock": 10,
+        "img":"imagenes/grafica-amd.jpeg"
+    },
+    {
+        "id": 9,
+        "nombre": "grafica GeForce",
+        "precio": 50000,
+        "stock": 10,
+        "img":"imagenes/grafica-geforce.jpg"
+    }
+]
